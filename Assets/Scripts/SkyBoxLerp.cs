@@ -5,8 +5,7 @@ using UnityEngine;
 public class SkyBoxLerp : MonoBehaviour
 {
     [SerializeField] Camera currentCamera;
-    [SerializeField] Color initColor;
-    [SerializeField] Color finalColor;
+    [SerializeField] Gradient colorTransition;
 
     private void Update()
     {
@@ -15,7 +14,6 @@ public class SkyBoxLerp : MonoBehaviour
 
     void HandleLerp()
     {
-        Debug.Log(StageManager.stageManager.GetCurrentHeightRatio());
-        currentCamera.backgroundColor = Color.Lerp(initColor, finalColor, StageManager.stageManager.GetCurrentHeightRatio());
+        currentCamera.backgroundColor = colorTransition.Evaluate(StageManager.stageManager.GetCurrentHeightRatio());
     }
 }

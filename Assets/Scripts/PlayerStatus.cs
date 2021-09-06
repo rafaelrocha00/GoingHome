@@ -33,6 +33,7 @@ public class PlayerStatus : MonoBehaviour
 
     public void ResetStatus()
     {
+        Debug.Log("Reseting status");
         lives = maxLives;
     }
 

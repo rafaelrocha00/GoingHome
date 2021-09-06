@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 692b0fdb5c76bf74390fd785ee7937bc, type: 3}
-  m_Name: Husk2
+  m_Name: Husk0.3
   m_EditorClassIdentifier: 
-  itemName: Husk2
-  price: 300
+  itemName: Husk1
+  price: 50
   icon: {fileID: -6595680761151332689, guid: bebee61852eeb034eb31b2c99e0ac92e, type: 3}
-  newDefense: 10
-  visualHuskIndex: 2
+  newDefense: 3
+  visualHuskIndex: -1

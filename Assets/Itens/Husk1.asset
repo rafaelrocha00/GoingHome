@@ -15,5 +15,5 @@ MonoBehaviour:
   itemName: Husk1
   price: 100
   icon: {fileID: -6595680761151332689, guid: bebee61852eeb034eb31b2c99e0ac92e, type: 3}
-  newDefense: 2
+  newDefense: 5
   visualHuskIndex: 1
